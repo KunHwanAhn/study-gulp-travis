@@ -11,4 +11,6 @@ before_install:
 before_script:
   - yarn global add gulp-cli
 script:
-  - gulp
+  - gulp build
+  - if (branch = master) AND (type != pull_request )
+    gulp
