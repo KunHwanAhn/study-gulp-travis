@@ -4,5 +4,9 @@
   "main": "index.js",
   "repository": "https://github.com/KunHwanAhn/study-gulp-travis",
   "author": "Conan Kunhwan Ahn <kunhwon@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  },
+  "dependencies": {}
 }

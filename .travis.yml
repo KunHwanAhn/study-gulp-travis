@@ -10,3 +10,5 @@ before_install:
   - export PATH="$HOME/.yarn/bin:$PATH"
 before_script:
   - yarn global add gulp-cli
+script:
+  - gulp
