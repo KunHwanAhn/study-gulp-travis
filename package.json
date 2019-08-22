@@ -1,0 +1,8 @@
+{
+  "name": "study-gulp-travis",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/KunHwanAhn/study-gulp-travis",
+  "author": "Conan Kunhwan Ahn <kunhwon@gmail.com>",
+  "license": "MIT"
+}
