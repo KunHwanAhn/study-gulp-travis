@@ -10,7 +10,9 @@ before_install:
   - export PATH="$HOME/.yarn/bin:$PATH"
 before_script:
   - yarn global add gulp-cli
-script:
-  - gulp build
+jobs:
+  include:
+  - stage: test
+    script: gulp build
   - if: (branch IN (master, develop)) AND (type != pull_request)
     script: gulp
